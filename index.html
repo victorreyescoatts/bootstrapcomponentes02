@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+<meta charset="utf-8">
+
+<title>BOOTSTRAP 5.3 - MENU HEADER</title>
+
+<!-- VICTOR REYES COATTS - 2024 -->
+
+<!--<link rel="shortcut icon" type="image/png" href="favicon.png"/>-->
+<!--<meta name="author" content="">
+<meta name="Description" content="">
+<meta name="Keywords" content="">-->
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<!-- Bootstrap 5.3 -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+<!--Google Fonts - Open Sans 300 - 400 - 700 / Roboto 300 400 700-->
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+<!--Material Design Icons(iconos)-->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@24,400,1,0" />
+
+
+<!--Mi CSS-->
+<link rel="stylesheet" href="assets/css/style.css" >
+
+</head>
+
+<body>
+
+
+<!--Menú Principal-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+
+<div class="container">
+  <a class="navbar-brand" href="#"><img src="assets/img/logo-idea.svg" width="160"></a></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown link
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  </div>
+</nav>
+
+
+<!--Carrusel-->
+<section class="container pt-2 mt-2">
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/img/clouds-5368444_1280.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/clouds-5368444_1280-2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/clouds-5368444_1280-3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+</section>
+
+
+<!--Sección de Contenido-->
+<section class="container mt-3 pt-3 mb-5 pb-5">
+
+
+  <h1 class="ds-h1"><span class="material-symbols-outlined ds-size38 text-primary">group</span>
+    Título principal uno (h1)
+</h1>
+<p class="ds-p ds-gris2">Bootstrap Customizado + Tipografía RUBIK  - Google Fonts + Iconos Material Design/Bootstrap</p>
+
+<div class="ds-separador40"></div>
+
+<div class="row">
+    <div class="col-md-6">
+        <p>Párrafo: Lorem ipsum dolor sit amet consectetur, adipisicing elit. <strong>Placeat atque iure praesentium</strong> veritatis! Ipsa fuga veritatis numquam magni modi in velit harum ex deserunt. Modi recusandae temporibus itaque tenetur ipsa?</p>
+        <div class="row">
+            <div class="col-md-6">
+                <ul>
+                    <li>Lista número uno</li>
+                    <li>Lista número uno</li>
+                    <li>Lista número uno</li>
+                    <li>Lista número uno</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ol>
+                    <li>Lista número uno</li>
+                    <li>Lista número uno</li>
+                    <li>Lista número uno</li>
+                    <li>Lista número uno</li>
+                </ol>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="col-md-6">
+
+        <div class="row">
+
+            <div class="col-md-6">
+
+                <button type="button" class="btn btn-primary mb-2">Primary</button>
+                
+                <button type="button" class="btn btn-secondary mb-2">Secondary</button>
+
+                <a href="#" class="btn btn-primary mb-2">Go somewhere</a>
+
+                <button type="button" class="btn btn-primary mb-2">
+                    Primary
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-square" viewBox="0 0 16 16">
+                      <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+                      <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+                    </svg>
+                  </button>
+
+                    <button type="button" class="btn btn-success mb-2">Success</button>
+                    <button type="button" class="btn btn-danger mb-2">Danger</button>
+                    <button type="button" class="btn btn-warning mb-2">Warning</button>
+                    <button type="button" class="btn btn-info mb-2">Info</button>
+                    <button type="button" class="btn btn-light mb-2">Light</button>
+                    <button type="button" class="btn btn-dark mb-2">Dark</button>
+
+                    <button type="button" class="btn btn-outline-primary mb-2">Primary</button>
+                    <button type="button" class="btn btn-outline-secondary mb-2">Secondary</button>
+                    <button type="button" class="btn btn-outline-success mb-2">Success</button>
+                    <button type="button" class="btn btn-outline-danger mb-2">Danger</button>
+                    <button type="button" class="btn btn-outline-warning mb-2">Warning</button>
+                    <button type="button" class="btn btn-outline-info mb-2">Info</button>
+                    <button type="button" class="btn btn-outline-light mb-2">Light</button>
+                    <button type="button" class="btn btn-outline-dark mb-2">Dark</button>
+
+                    <button type="button" class="btn btn-link">Link</button>
+            </div>
+            
+            <div class="col-md-6">
+                <h1><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-eye text-primary" viewBox="0 0 16 16">
+                    <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13 13 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5s3.879 1.168 5.168 2.457A13 13 0 0 1 14.828 8q-.086.13-.195.288c-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5s-3.879-1.168-5.168-2.457A13 13 0 0 1 1.172 8z"/>
+                    <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"/>
+                  </svg></h1>
+
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope text-primary" viewBox="0 0 16 16">
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                      </svg>
+                      Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                
+                  
+                  <select class="form-select mb-3" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+
+
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square text-primary" viewBox="0 0 16 16">
+                        <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                        <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z"/>
+                      </svg>
+                      Example textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+
+                  <button type="button" class="btn btn-secondary">
+                    Continuar
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                      </svg>
+                  </button>
+            </div>
+        </div>
+
+        
+
+    </div>
+</div>
+
+
+
+<div class="ds-separador10"></div>            
+
+<h1 class="ds-h1 ds-negro">Título principal (h1 - 36px)</h1>
+
+<div class="ds-separador10"></div>            
+
+<h2 class="ds-h2 text-primary">Título principal (h2 - 30px)</h2>
+
+    <div class="ds-separador10"></div>            
+
+<h3 class="ds-h3 ds-gris1">Título principal (h3 - 28px)</h3>
+
+    <div class="ds-separador10"></div>            
+
+<h4 class="ds-h4 ds-lila2">Título principal (h4 - 24px)</h4>
+
+<div class="ds-separador40"></div>
+
+<div class="row">
+<div class="col-md-4">
+<div class="alert bg-blanco">
+<p>Laudantium assumenda quia nesciunt doloribus, ullam aspernatur est harum. Architecto?</p>
+<div class="ds-input">
+    <p>Nombre</p>
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Francisco Ramírez">
+</div>
+<div class="ds-separador30"></div>
+<button class="btn btn-primary">Continuar
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+      </svg>
+    </button>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="alert bg-lila">
+<p class="ds-p ds-lila">Eficiencia</p>
+<h1 class="ds-h1"><span class="material-symbols-sharp ds-size38">
+    token
+    </span> 87%</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ipsum sint maiores dolore fugit facilis praesentium similique incidunt error.</p>
+<div class="ds-separador10"></div>
+<button class="btn btn-outline-primary">Ver más
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+      </svg>
+    </button>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="alert bg-blanco">
+<div class="row text-secondary">
+    <div class="col-1"><span class="material-symbols-sharp">file_open</span></div>
+    <div class="col-1"><span class="material-symbols-outlined">file_open</span></div>
+    <div class="col-1"><span class="material-symbols-outlined">downloading</span></div>
+    <div class="col-1"><span class="material-symbols-outlined">visibility</span></div>
+    <div class="col-1"><span class="material-symbols-sharp">visibility</span></div>
+    <div class="col-1"><span class="material-symbols-outlined">search</span></div>
+    <div class="col-1"><span class="material-symbols-outlined">manufacturing</span></div>
+    <div class="col-1"><span class="material-symbols-outlined">logout</span></div>
+    <div class="col-1"><span class="material-symbols-outlined">account_circle</span></div>
+    <div class="col-1"><span class="material-symbols-sharp">account_circle</span></div>
+</div>
+<div class="row text-primary">
+    <div class="col-1"><span class="material-symbols-sharp">add_circle</span></div>
+    <div class="col-1"><span class="material-symbols-outlined">check_circle</span></div>
+    <div class="col-1"><span class="material-symbols-sharp">check_circle</span></div>
+    <div class="col-1"><span class="material-symbols-outlined">favorite</span></div>
+    <div class="col-1"><span class="material-symbols-sharp">favorite</span></div>
+    <div class="col-1"><span class="material-symbols-outlined">edit_document</span></div>
+    <div class="col-1"><span class="material-symbols-sharp">edit_document</span></div>
+    <div class="col-1"><span class="material-symbols-outlined">cancel</span></div>
+    <div class="col-1"><span class="material-symbols-sharp">cancel</span></div>
+    <div class="col-1"><span class="material-symbols-sharp">settings</span></div>
+</div>
+<div class="row text-secondary">
+    <div class="col-1"><span class="material-symbols-sharp">download</span></div>
+    <div class="col-1"><span class="material-symbols-outlined">description</span></div>
+    <div class="col-1"><span class="material-symbols-sharp">description</span></div>
+    <div class="col-1"><span class="material-symbols-outlined">person</span></div>
+    <div class="col-1"><span class="material-symbols-sharp">person</span></div>
+    <div class="col-1"><span class="material-symbols-outlined">rocket_launch</span></div>
+    <div class="col-1"><span class="material-symbols-sharp">rocket_launch</span></div>
+    <div class="col-1"><span class="material-symbols-outlined">emoji_objects</span></div>
+    <div class="col-1"><span class="material-symbols-sharp">emoji_objects</span></div>
+    <div class="col-1"><span class="material-symbols-sharp">water_drop</span></div>
+</div>
+<div class="row text-primary">
+    <div class="col-1"><span class="material-symbols-sharp">help</span></div>
+    <div class="col-1"><span class="material-symbols-outlined">water_drop</span></div>
+    <div class="col-1"><span class="material-symbols-sharp">warning</span></div>
+    <div class="col-1"><span class="material-symbols-outlined">warning</span></div>
+    <div class="col-1"><span class="material-symbols-sharp">task_alt</span></div>
+    <div class="col-1"><span class="material-symbols-outlined">backup</span></div>
+    <div class="col-1"><span class="material-symbols-sharp">backup</span></div>
+    <div class="col-1"><span class="material-symbols-outlined">mail</span></div>
+    <div class="col-1"><span class="material-symbols-sharp">mail</span></div>
+    <div class="col-1"><span class="material-symbols-sharp">notifications</span></div>
+</div>
+<div class="row text-secondary">
+    <div class="col-1"><span class="material-symbols-sharp">forum</span></div>
+    <div class="col-1"><span class="material-symbols-outlined">notifications</span></div>
+    <div class="col-1"><span class="material-symbols-outlined">navigate_next</span></div>
+    <div class="col-1"><span class="material-symbols-outlined">image</span></div>
+    <div class="col-1"><span class="material-symbols-sharp">image</span></div>
+    <div class="col-1"><span class="material-symbols-outlined">navigate_before</span></div>
+    <div class="col-1"><span class="material-symbols-outlined">shopping_cart</span></div>
+    <div class="col-1"><span class="material-symbols-outlined">account_balance</span></div>
+    <div class="col-1"><span class="material-symbols-outlined">work</span></div>
+    <div class="col-1"><span class="material-symbols-sharp">work</span></div>
+</div>
+<div class="row text-primary">
+    <div class="col-1"><span class="material-symbols-sharp">paid</span></div>
+    <div class="col-1"><span class="material-symbols-outlined">paid</span></div>
+    <div class="col-1"><span class="material-symbols-sharp">upload_file</span></div>
+    <div class="col-1"><span class="material-symbols-outlined">date_range</span></div>
+    <div class="col-1"><span class="material-symbols-sharp">attach_money</span></div>
+    <div class="col-1"><span class="material-symbols-outlined">database</span></div>
+    <div class="col-1"><span class="material-symbols-sharp">database</span></div>
+    <div class="col-1"><span class="material-symbols-outlined">credit_card</span></div>
+    <div class="col-1"><span class="material-symbols-sharp">credit_card</span></div>
+    <div class="col-1"><span class="material-symbols-sharp">finance_mode</span></div>
+</div>
+<div class="row text-secondary">
+    <div class="col-1"><span class="material-symbols-sharp">church</span></div>
+    <div class="col-1"><span class="material-symbols-outlined">church</span></div>
+    <div class="col-1"><span class="material-symbols-outlined">newspaper</span></div>
+    <div class="col-1"><span class="material-symbols-outlined">location_on</span></div>
+    <div class="col-1"><span class="material-symbols-sharp">location_on</span></div>
+    <div class="col-1"><span class="material-symbols-outlined">flight</span></div>
+    <div class="col-1"><span class="material-symbols-outlined">directions_car</span></div>
+    <div class="col-1"><span class="material-symbols-outlined">print</span></div>
+    <div class="col-1"><span class="material-symbols-sharp">phone_android</span></div>
+    <div class="col-1"><span class="material-symbols-sharp">wifi</span></div>
+</div>
+<div class="row text-primary">
+    <div class="col-1"><span class="material-symbols-sharp">desktop_windows</span></div>
+    <div class="col-1"><span class="material-symbols-outlined">desktop_windows</span></div>
+    <div class="col-1"><span class="material-symbols-sharp">verified_user</span></div>
+    <div class="col-1"><span class="material-symbols-outlined">apartment</span></div>
+    <div class="col-1"><span class="material-symbols-sharp">nest_clock_farsight_analog</span></div>
+    <div class="col-1"><span class="material-symbols-outlined">nest_clock_farsight_analog</span></div>
+    <div class="col-1"><span class="material-symbols-sharp">family_restroom</span></div>
+    <div class="col-1"><span class="material-symbols-outlined">shield</span></div>
+    <div class="col-1"><span class="material-symbols-sharp">shield_lock</span></div>
+    <div class="col-1"><span class="material-symbols-sharp">lock</span></div>
+</div>
+</div>
+
+</div>
+</div>
+
+<div class="ds-separador40"></div>
+
+<div class="row">
+<div class="col-md-4">
+<div class="alert bg-blanco">
+
+<a href="#" class="ds-list-user">
+    <div class="img-list-user">
+        <img src="assets/img/cumple2.jpg" alt="usuario">
+    </div>
+    <div class="txt-list-user">
+        <h1>Carolina Fernández S.</h1>
+        <h2>Key Account Manager</h2>
+    </div>
+</a>
+
+<a href="#" class="ds-list-user">
+    <div class="img-list-user">
+        <img src="assets/img/06.jpeg" alt="usuario">
+    </div>
+    <div class="txt-list-user">
+        <h1>Javiera Altamirano P.</h1>
+        <h2>Key Account Manager</h2>
+    </div>
+</a>
+
+<a href="#" class="ds-list-user">
+    <div class="img-list-user">
+        <img src="assets/img/persona77.jpg" alt="usuario">
+    </div>
+    <div class="txt-list-user">
+        <h1>Patricio Aguilar V.</h1>
+        <h2>Key Account Manager</h2>
+    </div>
+</a>
+
+</div>
+</div>
+
+
+<div class="col-md-4">
+<div class="alert bg-blanco">
+<a href="#" class="ds-list-user">
+    <div class="img-list-user">
+        <img src="assets/img/04.jpeg" alt="usuario">
+    </div>
+    <div class="txt-list-user">
+        <h1>Frank Kremmer A.</h1>
+        <h2>Full Stack Development</h2>
+    </div>
+</a>
+<a href="#" class="ds-list-user">
+    <div class="img-list-user">
+        <img src="assets/img/1554216130805.jpeg" alt="usuario">
+    </div>
+    <div class="txt-list-user">
+        <h1>Ana María Saavedra R.</h1>
+        <h2>Ingeniero Desarrollador</h2>
+    </div>
+</a>
+<a href="#" class="ds-list-user">
+    <div class="img-list-user">
+        <img src="assets/img/cumple3.jpg" alt="usuario">
+    </div>
+    <div class="txt-list-user">
+        <h1>Julio Arriagada F.</h1>
+        <h2>Full Stack Development</h2>
+    </div>
+</a>
+</div>
+</div>
+
+
+<div class="col-md-4">
+<div class="alert bg-blanco">
+<a href="#" class="ds-list-user">
+    <div class="img-list-user">
+        <img src="assets/img/05.jpeg" alt="usuario">
+    </div>
+    <div class="txt-list-user">
+        <h1>Catalina Arancibia G.</h1>
+        <h2>Jefe de Proyectos TI</h2>
+    </div>
+</a>
+<a href="#" class="ds-list-user">
+    <div class="img-list-user">
+        <img src="assets/img/foto-perfil.jpg" alt="usuario">
+    </div>
+    <div class="txt-list-user">
+        <h1>Catalina Arancibia G.</h1>
+        <h2>Jefe de Proyectos TI</h2>
+    </div>
+</a>
+<a href="#" class="ds-list-user">
+    <div class="img-list-user">
+        <!-- <img src="assets/img/05.jpeg" alt="usuario"> -->
+        <span class="material-symbols-sharp">account_circle</span>
+    </div>
+    <div class="txt-list-user">
+        <h1>Catalina Arancibia G.</h1>
+        <h2>Jefe de Proyectos TI</h2>
+    </div>
+</a>
+</div>
+</div>
+</div>
+
+<div class="row mt-4">
+<div class="col-md-3">
+<button class="ds-btn ds-btn-primario">DS-Primario</button>
+</div>
+<div class="col-md-3">
+<button class="ds-btn ds-btn-primario">DS-Primario 
+<span class="material-symbols-outlined">arrow_right_alt</span>
+</button>
+</div>
+<div class="col-md-3">
+<button class="ds-btn ds-btn-secundario">DS-Secundario</button>
+</div>
+<div class="col-md-3">
+<button class="ds-btn ds-btn-secundario">DS-Secundario 
+<span class="material-symbols-sharp">arrow_circle_right</span>
+</button>
+</div>
+</div>
+
+<div class="ds-separador40"></div>
+
+<div class="row">
+<div class="col-md-3">
+<div class="ds-input">
+<p>Nombre</p>
+<input type="text" placeholder="Ricardo Fernández">
+</div>
+</div>
+
+<div class="col-md-9 bg-blanco">
+
+<div class="table-responsive">
+<table class="table">
+<thead class="table-primary">
+  <tr>
+    <th scope="col">#</th>
+    <th scope="col">First</th>
+    <th scope="col">Last</th>
+    <th scope="col">Handle</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <th scope="row">1</th>
+    <td>Mark</td>
+    <td>Otto</td>
+    <td>@mdo</td>
+  </tr>
+  <tr>
+    <th scope="row">2</th>
+    <td>Jacob</td>
+    <td>Thornton</td>
+    <td>@fat</td>
+  </tr>
+  <tr>
+    <th scope="row">3</th>
+    <td colspan="2">Larry the Bird</td>
+    <td>@twitter</td>
+  </tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+
+
+
+</section>
+
+
+<!--Pie del Sitio-->
+<footer class="container-fluid text-center pt-5 pb-5">
+<p class="font-weight">©Pie de Página</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<!--JQuery 3.5.1 SIN SLIM BAJADO DESDE https://code.jquery.com/-->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+<!--Pooper-->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+<!--JS Bootstrap 4.5.2-->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
+<!--Mi JS-->
+<!--<script src="assets/js/script.js"></script>-->
+
+</body>
+
+
+</html>
